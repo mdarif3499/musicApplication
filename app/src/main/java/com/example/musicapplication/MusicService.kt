@@ -13,9 +13,6 @@ import android.os.IBinder
 import android.support.v4.media.session.MediaSessionCompat
 
 class MusicService: Service(){
-
-
-
     private var myBinder = MyBinder()
     var mediaPlayer: MediaPlayer? = null
     private lateinit var mediaSession : MediaSessionCompat
